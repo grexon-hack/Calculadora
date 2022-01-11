@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="./icono/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./icono/apple-touch-icon.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <audio id="sonido" src="./sonido/bit.mp3"></audio>
+    <div class="contenedor" id="contenedor">
+        <div class="pantalla" id="pantalla">
+            <h2 class="mostrar" id="mostrar"></h2>
+        </div>
+        <div onclick="sonido()" class="teclado" id="teclado">
+            <div class="teclas" id="tecla1">1</div>
+            <div class="teclas" id="tecla2">2</div>
+            <div class="teclas" id="tecla3">3</div>
+            <div class="teclas" id="teclaSumar">+</div>
+            <div class="teclas" id="teclaDel">Del</div>
+            <div class="teclas" id="tecla4">4</div>                
+            <div class="teclas" id="tecla5">5</div>
+            <div class="teclas" id="tecla6">6</div>
+            <div class="teclas" id="teclaRestar">-</div>
+            <div class="teclas" id="teclaParent">(</div>
+            <div class="teclas" id="tecla7">7</div>
+            <div class="teclas" id="tecla8">8</div>
+            <div class="teclas" id="tecla9">9</div>
+            <div class="teclas" id="teclaDividir">/</div>
+            <div class="teclas" id="teclaParent2">)</div>
+            <div class="teclas" id="teclaBorrar">c</div>
+            <div class="teclas" id="tecla0">0</div>
+            <div class="teclas" id="teclaIgual">=</div>
+            <div class="teclas" id="teclaMultip">x</div>
+            <div class="teclas" id="teclaPunto">.</div>
+            
+        </div>
+        
+    </div>
+    <script src="./js/java.js"></script>
+</body>
+</html>
